@@ -1,0 +1,32 @@
+#mainView {
+    display: flex;
+    flex : 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headerApp {
+    flex : 1;
+    flex-direction: 'row';
+    justify-content: 'space-between';
+    align-items: 'center';
+    padding-left: calc(62vh / 50);
+    padding-right: calc(62vh / 50);
+}
+
+#board {
+    flex : 8;
+}
+
+#footer {
+    flex : 1;
+}
+
+#imageApp {
+    flex : 1;
+    resize: 'center';
+    background : url("../img/woodClear.png");
+    background-size: 35vh 62vh;
+    width: 35vh;
+    height: 62vh;
+}

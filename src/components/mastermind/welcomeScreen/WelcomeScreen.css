@@ -1,0 +1,61 @@
+#headerApp {
+    display: flex;
+    flex : 1;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+    padding-left : 1vh;
+    padding-right : 1vh;
+}
+
+#bodyApp {
+    display: flex;
+    flex : 6;
+    flex-direction : column;
+    align-items: center;
+}
+
+.padding {
+    display: flex;
+    flex : 1.5;
+}
+
+#play {
+    display: flex;
+    flex-direction : row;
+    justify-content : center;
+}
+
+#chooseDifficulty {
+    display: flex;
+    flex: 1;
+    flex-direction : row;
+    justify-content : space-around;
+    align-items : center;
+    border-width : 5px;
+    border-style: solid;
+    border-color : rgba(180, 180, 180, .9);
+    background-color : rgba(180, 180, 180, .3);
+    border-radius : 20px;
+    padding : 4px;
+    margin-left : 10px;
+    margin-right : 10px;
+    width: 30vh;
+}
+
+#textDifficulty {
+    display: block;
+    font-size: 20px;
+    font-weight : bold;
+    width : 10vh;
+    text-align: center;
+}
+
+#imageWelcome {
+    display: flex;
+    background-image: url("../img/welcome.jpg");
+    background-size: 35vh 62vh;
+    flex-direction: column;
+    width: 35vh;
+    height: 62vh;
+}

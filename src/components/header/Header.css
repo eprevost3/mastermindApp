@@ -1,0 +1,17 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content : space-around;
+    align-items: center;
+    background-color: rgba(120, 120, 120, 0.1);
+    flex-grow: 1;
+
+}
+
+#title{
+    display: flex;
+    width: 60%;
+    font-size: 2em;
+    font-weight: bold;
+    justify-content: center;
+}

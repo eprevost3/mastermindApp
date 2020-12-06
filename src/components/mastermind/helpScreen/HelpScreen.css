@@ -1,0 +1,17 @@
+#viewHelp {
+    display: flex;
+    width: 35vh;
+    height: 62vh;
+    flex-direction : column;
+}
+
+.headerHelp {
+    display: flex;
+    flex : 1;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+    padding-left : calc(32vh / 25);
+    padding-right : calc(32vh / 25);
+    background-image: url("../img/woodClear.png");
+}

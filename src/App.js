@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./components/header/Header"
+import MastermindApp from "./components/mastermind/MastermindApp"
+import imgPhone from "./img/samsung_phone.png"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    return (
+        <div className = "App">
+            <Header/>
 
+            <div id = "phone">
+                <MastermindApp/>
+            </div>
+
+            <div id = "footer"/>
+        </div>
+        )
+}
+//Image by <a href="fhfttps://pixabay.com/users/prettysleepy1-2855492/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1497890">prettysleepy1</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1497890">Pixabay</a>
 export default App;
