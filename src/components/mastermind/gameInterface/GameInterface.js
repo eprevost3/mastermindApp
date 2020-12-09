@@ -1,8 +1,8 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import Button from '../../other/Button'
-// import ChooseColor from './componentsFooter/ChooseColor'
-// import LineBoard from './componentsBoard/LineBoard'
+import ChooseColor from './componentsFooter/ChooseColor'
+import LineBoard from './componentsBoard/LineBoard'
 import translations from '../translations'
 import GameLogic from './componentsBoard/gameLogic'
 import "./GameInterface.css"
@@ -203,7 +203,7 @@ class GameInterface extends React.Component{
 
     render(){
         return(
-            <div id = "mainView">
+            <div id = "viewGame">
                 <div id = "imageApp">
                     <div id = "headerApp">
                         <Button image = "question"
@@ -222,6 +222,25 @@ class GameInterface extends React.Component{
                                 title = ""
                                 overWriteDefaultCss = {{height : "7vh", width : "7vh"}}/>
                     </div>
+
+                    <div id = "boardGame">
+                        {this.state.lineDisplayed.map((isDisp, id) => (
+                            <LineBoard getActiveColor = {this.getActiveColor}
+                                       isDisplayed = {isDisp}
+                                       key = {id}
+                                       id = {id}
+                                       validate = {this.validate}
+                                       updateUserGuess = {this.updateUserGuess}
+                                       colorPegs = {this.colorPegs}
+                                       colorCircles = {this.colorCircles}
+                                       getActiveView = {this.props.getActiveView}
+                                       checkUserGuess = {this.checkUserGuess}
+                                       />
+                        ))}
+                    </div>
+
+                    <ChooseColor getActiveColor = {this.getActiveColor} setActiveColor = {this.setActiveColor}/>
+
 
                 </div>
             </div>
@@ -256,7 +275,3 @@ export default connect(mapStateToProps)(GameInterface)
 //     </ImageBackground>
 // </div>
 //
-//
-// <div style={styles.footer}>
-//     <ChooseColor getActiveColor = {this.getActiveColor} setActiveColor = {this.setActiveColor}/>
-// </div>

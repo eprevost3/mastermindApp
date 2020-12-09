@@ -1,0 +1,35 @@
+#footerApp {
+    display: flex;
+    flex : 1.2;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items: center;
+}
+
+.boxContainer {
+    display: flex;
+    flex : 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.chooseColor {
+    display: flex;
+    width: 5vh;
+    height: 5vh;
+    border-radius : 100%;
+}
+
+.activeColor {
+    border-style: solid;
+    border-color: yellow;
+    animation-name: animationColor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animationColor {
+    0% {border-width: 2.5px}
+    50% {border-width: 5.5px}
+    100% {border-width: 2.5px}
+}

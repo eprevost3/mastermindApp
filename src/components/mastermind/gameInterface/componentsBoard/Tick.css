@@ -1,0 +1,18 @@
+.tickBlink {
+    animation-name: tickAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#nextStep {
+    border-radius : 100%;
+    position : absolute;
+    width : calc(.09 * 64vh);
+    height : calc(.09 * 64vh);
+}
+
+@keyframes tickAnimation {
+    0% {background-color: rgba(255, 210, 0, 0)}
+    50% {background-color: rgba(255, 210, 0, 0.7)}
+    100% {background-color: rgba(255, 210, 0, 0)}
+}

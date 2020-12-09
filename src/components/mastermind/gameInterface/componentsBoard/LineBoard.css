@@ -1,0 +1,90 @@
+#line{
+    display : flex;
+    flex : 1;
+    flex-direction : row;
+}
+
+#guesses{
+    display : flex;
+    flex : 5;
+    flex-direction : row;
+    justify-content : space-around;
+    align-items : center;
+}
+
+#next{
+    display : flex;
+    flex : 1;
+    justify-content : center;
+    align-items : center;
+    padding-left : 2;
+}
+
+#results{
+    display : flex;
+    flex : 1;
+    background-image: url("../../img/woodClear.png");
+}
+
+#blocResults{
+    display : flex;
+    flex : 1;
+    flex-direction : column;
+    justify-content: space-around;
+}
+
+#lineResult{
+    display : flex;
+    flex : 4;
+    flex-direction : row;
+    justify-content : space-around;
+    align-items: center;
+}
+
+.res{
+    height: calc(.025 * 64vh);
+    width : calc(.025 * 64vh);
+    border-radius : 100%;
+    background-color: red;
+}
+
+#padding{
+    display : flex;
+    flex : .5;
+}
+
+#imageBackground{
+    display : flex;
+    flex : 1;
+    resize : cover;
+}
+
+.containerCircles {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    border-radius: 100%;
+    width : calc(.09 * 64vh);
+    height : calc(.09 * 64vh);
+    border: solid;
+    border-width: 0px;
+}
+
+.blink {
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0% {border-width: 1px;
+        border-color : #888888;}
+    50% {border-width: 3.5px;
+        border-color : #888888;}
+    100% {border-width: 1px;
+        border-color : #888888;}
+}

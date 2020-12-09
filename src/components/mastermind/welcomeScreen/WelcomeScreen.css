@@ -54,8 +54,8 @@
 #imageWelcome {
     display: flex;
     background-image: url("../img/welcome.jpg");
-    background-size: 35vh 62vh;
+    background-size: 37vh 64vh;
     flex-direction: column;
-    width: 35vh;
-    height: 62vh;
+    width: 37vh;
+    height: 64vh;
 }

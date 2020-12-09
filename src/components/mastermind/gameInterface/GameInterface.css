@@ -1,32 +1,38 @@
-#mainView {
+#viewGame {
     display: flex;
     flex : 1;
     flex-direction: column;
     align-items: center;
+    background-size: 37vh 64vh;
+    width: 37vh;
+    height: 64vh;
 }
 
 #headerApp {
+    display: flex;
     flex : 1;
-    flex-direction: 'row';
-    justify-content: 'space-between';
-    align-items: 'center';
-    padding-left: calc(62vh / 50);
-    padding-right: calc(62vh / 50);
+    padding-left: calc(64vh / 50);
+    padding-right: calc(64vh / 50);
 }
 
-#board {
+#boardGame {
+    display: flex;
+    flex-direction: column;
     flex : 8;
+    background-image: url("../img/woodDark.png")
 }
 
 #footer {
+    display: flex;
     flex : 1;
 }
 
 #imageApp {
+    display: flex;
+    flex-direction: column;
     flex : 1;
-    resize: 'center';
     background : url("../img/woodClear.png");
-    background-size: 35vh 62vh;
-    width: 35vh;
-    height: 62vh;
+    background-size: 37vh 64vh;
+    width: 37vh;
+    height: 64vh;
 }

@@ -1,7 +1,7 @@
 #viewHelp {
     display: flex;
-    width: 35vh;
-    height: 62vh;
+    width: 37vh;
+    height: 64vh;
     flex-direction : column;
 }
 
@@ -11,7 +11,7 @@
     flex-direction : row;
     justify-content : space-between;
     align-items : center;
-    padding-left : calc(32vh / 25);
-    padding-right : calc(32vh / 25);
+    padding-left : calc(37vh / 25);
+    padding-right : calc(37vh / 25);
     background-image: url("../img/woodClear.png");
 }
