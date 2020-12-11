@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/mastermindApp/static/css/main.a3cc3cd5.chunk.css",
+    "main.js": "/mastermindApp/static/js/main.3f1c2d2d.chunk.js",
+    "main.js.map": "/mastermindApp/static/js/main.3f1c2d2d.chunk.js.map",
+    "runtime-main.js": "/mastermindApp/static/js/runtime-main.45bde6a7.js",
+    "runtime-main.js.map": "/mastermindApp/static/js/runtime-main.45bde6a7.js.map",
+    "static/js/2.1973d0bf.chunk.js": "/mastermindApp/static/js/2.1973d0bf.chunk.js",
+    "static/js/2.1973d0bf.chunk.js.map": "/mastermindApp/static/js/2.1973d0bf.chunk.js.map",
+    "static/js/3.4892add1.chunk.js": "/mastermindApp/static/js/3.4892add1.chunk.js",
+    "static/js/3.4892add1.chunk.js.map": "/mastermindApp/static/js/3.4892add1.chunk.js.map",
+    "index.html": "/mastermindApp/index.html",
+    "static/css/main.a3cc3cd5.chunk.css.map": "/mastermindApp/static/css/main.a3cc3cd5.chunk.css.map",
+    "static/js/2.1973d0bf.chunk.js.LICENSE.txt": "/mastermindApp/static/js/2.1973d0bf.chunk.js.LICENSE.txt",
+    "static/media/1stMoveEn.5a2b5576.png": "/mastermindApp/static/media/1stMoveEn.5a2b5576.png",
+    "static/media/1stMoveFr.715d8071.png": "/mastermindApp/static/media/1stMoveFr.715d8071.png",
+    "static/media/2ndMoveEn.d9934bd4.png": "/mastermindApp/static/media/2ndMoveEn.d9934bd4.png",
+    "static/media/2ndMoveFr.1b740876.png": "/mastermindApp/static/media/2ndMoveFr.1b740876.png",
+    "static/media/7thMove.cbb37349.png": "/mastermindApp/static/media/7thMove.cbb37349.png",
+    "static/media/US_flag.590e4bf8.jpg": "/mastermindApp/static/media/US_flag.590e4bf8.jpg",
+    "static/media/App.css": "/mastermindApp/static/media/samsung_phone.2a8dda55.png",
+    "static/media/homepage.9eb2c5bf.png": "/mastermindApp/static/media/homepage.9eb2c5bf.png",
+    "static/media/left.185ebd8e.png": "/mastermindApp/static/media/left.185ebd8e.png",
+    "static/media/next.f6bb5dc0.png": "/mastermindApp/static/media/next.f6bb5dc0.png",
+    "static/media/play.1ccaa5ff.png": "/mastermindApp/static/media/play.1ccaa5ff.png",
+    "static/media/question.d55d0e31.png": "/mastermindApp/static/media/question.d55d0e31.png",
+    "static/media/reset.01cfeb62.png": "/mastermindApp/static/media/reset.01cfeb62.png",
+    "static/media/right.6fb97436.png": "/mastermindApp/static/media/right.6fb97436.png",
+    "static/media/victory.f99dd920.png": "/mastermindApp/static/media/victory.f99dd920.png",
+    "static/media/WelcomeScreen.css": "/mastermindApp/static/media/welcome.f8e269fa.jpg",
+    "static/media/HelpScreen.css": "/mastermindApp/static/media/woodClear.17924219.png",
+    "static/media/Step.css": "/mastermindApp/static/media/woodDark.28cc8554.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45bde6a7.js",
+    "static/js/2.1973d0bf.chunk.js",
+    "static/css/main.a3cc3cd5.chunk.css",
+    "static/js/main.3f1c2d2d.chunk.js"
+  ]
+}
