@@ -1,9 +1,7 @@
 import React from 'react';
-import { Provider } from 'react-redux'
 import GameInterface from './gameInterface/GameInterface'
 import WelcomeScreen from './welcomeScreen/WelcomeScreen'
 import HelpScreen from './helpScreen/HelpScreen'
-import Store from './store/store'
 
 export default class MastermindApp extends React.Component{
     constructor(props){
@@ -27,9 +25,9 @@ export default class MastermindApp extends React.Component{
         else{}
 
         return(
-            <Provider store = {Store}>
+            <div>
                 {component}
-            </Provider>
+            </div>
         )
     }
 }

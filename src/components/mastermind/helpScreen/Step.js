@@ -1,5 +1,4 @@
 import React from "react"
-import translations from '../translations'
 import text from './text'
 import './Step.css'
 

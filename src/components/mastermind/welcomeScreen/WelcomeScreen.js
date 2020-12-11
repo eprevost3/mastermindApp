@@ -11,6 +11,7 @@ const Play = (props) => {
             <CustomizedButton image = "play"
                               relativeImageSize = {.2}
                               onClick = {() => props.changeView('gameInterface')}
+                              title = {translations[props.language]["play"]}
                               overWriteDefaultCss = {{height : "12vh", width : "12vh"}}/>
         </div>
     )
@@ -36,9 +37,11 @@ class WelcomeScreen extends React.Component{
                 <div id = "headerApp">
                     <CustomizedButton image = "question"
                                          onClick = {() => {this.props.changeView("helpScreen")}}
+                                         title = {translations[this.props.language]["help"]}
                                          overWriteDefaultCss = {{height : "7vh", width : "7vh"}}/>
                     <CustomizedButton image = {this.props.language}
                                          onClick = {this.changeLanguage}
+                                         title = {translations[this.props.language]["changeLanguage"]}
                                          overWriteDefaultCss = {{height : "7vh", width : "7vh"}}/>
                 </div>
 
@@ -52,6 +55,7 @@ class WelcomeScreen extends React.Component{
                     <div id = "chooseDifficulty">
                         <CustomizedButton image = "left"
                                              onClick = {() => {this.changeLevel("left")}}
+                                             title = {translations[this.props.language]["changeLevel"]}
                                              overWriteDefaultCss = {{height : "7vh", width : "7vh"}}/>
 
 
@@ -61,13 +65,14 @@ class WelcomeScreen extends React.Component{
 
                         <CustomizedButton image = "right"
                                              onClick = {() => {this.changeLevel("right")}}
+                                             title = {translations[this.props.language]["changeLevel"]}
                                              overWriteDefaultCss = {{height : "7vh", width : "7vh"}}/>
 
                     </div>
 
                     <div className = "padding"></div>
 
-                    <Play changeView = {this.props.changeView}/>
+                    <Play changeView = {this.props.changeView} language = {this.props.language}/>
 
                     <div className = "padding"></div>
                 </div>

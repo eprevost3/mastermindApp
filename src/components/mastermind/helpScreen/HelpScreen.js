@@ -49,12 +49,15 @@ class HelpScreen extends React.Component{
                 <div className = "headerHelp">
                     <Button image = "play"
                                       onClick = {() => this.props.changeView("gameInterface")}
+                                      title = {translations[this.props.language]["play"]}
                                       overWriteDefaultCss = {{height : "7vh", width : "7vh"}}/>
                     <Button image = "home"
                                       onClick = {() => this.props.changeView("welcomeScreen")}
+                                      title = {translations[this.props.language]["home"]}
                                       overWriteDefaultCss = {{height : "7vh", width : "7vh"}}/>
                     <Button image = {this.props.language}
                                       onClick = {this.changeLanguage}
+                                      title = {translations[this.props.language]["changeLanguage"]}
                                       overWriteDefaultCss = {{height : "7vh", width : "7vh"}}/>
                 </div>
 
@@ -66,9 +69,11 @@ class HelpScreen extends React.Component{
                 <div className = "headerHelp">
                     <Button image = "left"
                                       onClick = {() => this.changePage("left")}
+                                      title = {translations[this.props.language]["changeLevel"]}
                                       overWriteDefaultCss = {{height : "7vh", width : "7vh"}}/>
                     <Button image = "right"
                                       onClick = {() => this.changePage("right")}
+                                      title = {translations[this.props.language]["changeLevel"]}
                                       overWriteDefaultCss = {{height : "7vh", width : "7vh"}}/>
                 </div>
 

@@ -18,6 +18,7 @@
     width: 5vh;
     height: 5vh;
     border-radius : 100%;
+    cursor: pointer;
 }
 
 .activeColor {

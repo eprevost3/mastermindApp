@@ -1,20 +1,24 @@
 import './App.css';
 import Header from "./components/header/Header"
+import { Provider } from 'react-redux'
 import MastermindApp from "./components/mastermind/MastermindApp"
-import imgPhone from "./img/samsung_phone.png"
+import Store from './components/mastermind/store/store'
 
 function App() {
     return (
-        <div className = "App">
-            <Header/>
+        <Provider store = {Store}>
+            <div className = "App">
+                <Header/>
 
-            <div id = "phone">
-                <MastermindApp/>
+                <div id = "phone">
+                    <MastermindApp/>
+                </div>
+
+                <div id = "footer">
+                    <a id = "refBackground" href="https://pixabay.com/users/prettysleepy1-2855492/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1497890" target = "_blank" rel="noopener noreferrer">Image</a>
+                </div>
             </div>
-
-            <div id = "footer"/>
-        </div>
-        )
+        </Provider>
+    )
 }
-//Image by <a href="fhfttps://pixabay.com/users/prettysleepy1-2855492/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1497890">prettysleepy1</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1497890">Pixabay</a>
 export default App;

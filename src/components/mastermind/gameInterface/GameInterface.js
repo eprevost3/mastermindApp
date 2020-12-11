@@ -180,8 +180,8 @@ class GameInterface extends React.Component{
         var nbOnes = this.result.filter(x => x === 1).length
 
         var k = 0
-        for (var k = 0; k < nbTwos; k++){this.colorPegs[key][k] = "red"}
-        for (var k = nbTwos; k < nbOnes + nbTwos; k++){this.colorPegs[key][k] = "white"}
+        for (k = 0; k < nbTwos; k++){this.colorPegs[key][k] = "red"}
+        for (k = nbTwos; k < nbOnes + nbTwos; k++){this.colorPegs[key][k] = "white"}
     }
 
     // sets up a warning before going back to the welcome screen
@@ -209,17 +209,17 @@ class GameInterface extends React.Component{
                         <Button image = "question"
                                 onClick = {this.goHelp}
                                 alt = ""
-                                title = ""
+                                title = {translations[this.props.language]["help"]}
                                 overWriteDefaultCss = {{height : "7vh", width : "7vh"}}/>
                         <Button image = "home"
                                 onClick = {this.goHome}
                                 alt = ""
-                                title = ""
+                                title = {translations[this.props.language]["home"]}
                                 overWriteDefaultCss = {{height : "7vh", width : "7vh"}}/>
                         <Button image = "reset"
                                 onClick = {this.reinitGameWithWarning}
                                 alt = ""
-                                title = ""
+                                title = {translations[this.props.language]["reset"]}
                                 overWriteDefaultCss = {{height : "7vh", width : "7vh"}}/>
                     </div>
 

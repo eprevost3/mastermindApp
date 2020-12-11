@@ -10,6 +10,12 @@ const translations = {
         "restart" : "Recommencer ?",
         "goHome" : "Retour à l'accueil ? La partie sera perdue",
         "goHelp" : "Aller à l'aide ? La partie sera perdue",
+        "help" : "Cliquez pour aller à l'aide",
+        "changeLanguage" : "Changer de langue",
+        "play" : "Jouer !",
+        "changeLevel" : "Changer de niveau",
+        "home" : "Retour à l'accueil",
+        "reset" : "Cliquez pour recommencer",
     },
     'us' : {
         "loss" : "You lost!",
@@ -22,6 +28,12 @@ const translations = {
         "restart" : "Restart?",
         "goHome" : "Go back to home screen? The game will be lost",
         "goHelp" : "Go to the help screen? The game will be lost",
+        "help" : "Click to reach the help",
+        "changeLanguage" : "Change language",
+        "play" : "Play!",
+        "changeLevel" : "Change level",
+        "home" : "Go to home screen",
+        "reset" : "Click to restart",
     },
 }
 
