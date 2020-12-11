@@ -59,19 +59,10 @@
     resize : cover;
 }
 
-.containerCircles {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-}
-
 .circle{
     border-radius: 100%;
     width : calc(.09 * 64vh);
     height : calc(.09 * 64vh);
-    border: solid;
-    border-width: 0px;
 }
 
 .blink {
@@ -79,13 +70,11 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 @keyframes blink {
-    0% {border-width: 1px;
-        border-color : #888888;}
-    50% {border-width: 3.5px;
-        border-color : #888888;}
-    100% {border-width: 1px;
-        border-color : #888888;}
+    0% {box-shadow: inset 0px 0px 0px 0vh #888888;}
+    50% {box-shadow: inset 0px 0px 0px .3vh #888888;}
+    100% {box-shadow: inset 0px 0px 0px 0vh #888888;}
 }

@@ -2,15 +2,8 @@
     display: flex;
     flex : 1.2;
     flex-direction : row;
-    justify-content : space-between;
+    justify-content : space-around;
     align-items: center;
-}
-
-.boxContainer {
-    display: flex;
-    flex : 1;
-    align-items: center;
-    justify-content: center;
 }
 
 .chooseColor {
@@ -30,7 +23,7 @@
 }
 
 @keyframes animationColor {
-    0% {border-width: 2.5px}
-    50% {border-width: 5.5px}
-    100% {border-width: 2.5px}
+    0% {box-shadow: inset 0px 0px 0px .1vh yellow;}
+    50% {box-shadow: inset 0px 0px 0px .3vh yellow;}
+    100% {box-shadow: inset 0px 0px 0px .1vh yellow;}
 }

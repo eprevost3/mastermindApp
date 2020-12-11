@@ -37,17 +37,21 @@
     border-color : rgba(180, 180, 180, .9);
     background-color : rgba(180, 180, 180, .3);
     border-radius : 20px;
-    padding : 4px;
-    margin-left : 10px;
-    margin-right : 10px;
+    padding-left: 1vh;
+    padding-right: 1vh;
     width: 30vh;
 }
 
+#textBox {
+    display: flex;
+    flex: 5;
+    justify-content: center;
+    align-items: center;
+}
+
 #textDifficulty {
-    display: block;
-    font-size: 20px;
+    font-size: 3vh;
     font-weight : bold;
-    width : 10vh;
     text-align: center;
 }
 

@@ -76,11 +76,9 @@ class Circle extends React.Component{
         flag *=  this.props.isActive && (this.state.color === "grey")
 
         return(
-            <div className = "containerCircles">
-                <div className = {flag ? "circle blink" : "circle"}
-                     onClick = {() => this.changeColor()}
-                     style = {{backgroundColor : color}}/>
-            </div>
+            <div className = {flag ? "circle blink" : "circle"}
+                 onClick = {() => this.changeColor()}
+                 style = {{backgroundColor : color}}/>
         )
     }
 }

@@ -10,11 +10,9 @@ const colToRGB = {red : "rgb(150, 0, 0)", blue : "rgb(0, 0, 150)",
 class Color extends React.Component{
     render(){
         return(
-            <div className = "boxContainer">
-                <div className = {"chooseColor" + (this.props.isActive ? " activeColor" : "")}
-                     onClick = {() => {this.props.activateCircle(this.props.backgroundColor)}}
-                     style={{backgroundColor : colToRGB[this.props.backgroundColor],}}/>
-            </div>
+            <div className = {"chooseColor" + (this.props.isActive ? " activeColor" : "")}
+                 onClick = {() => {this.props.activateCircle(this.props.backgroundColor)}}
+                 style={{backgroundColor : colToRGB[this.props.backgroundColor],}}/>
         )
     }
 }

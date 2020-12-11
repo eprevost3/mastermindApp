@@ -59,9 +59,9 @@ class WelcomeScreen extends React.Component{
                                              overWriteDefaultCss = {{height : "7vh", width : "7vh"}}/>
 
 
-                        <p id = "textDifficulty">
-                            {translations[this.props.language].difficulty[this.props.difficulty]}
-                        </p>
+                        <div id = "textBox">
+                            <p id = "textDifficulty">{translations[this.props.language].difficulty[this.props.difficulty]}</p>
+                        </div>
 
                         <CustomizedButton image = "right"
                                              onClick = {() => {this.changeLevel("right")}}
